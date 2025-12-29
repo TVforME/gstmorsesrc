@@ -1,0 +1,27 @@
+# Build directories
+builddir/
+build/
+dist/
+
+# Generated files
+config.h
+*.o
+*.so
+*.a
+
+# Editor files
+*~
+.*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*.wav
+*.mp3
+*.ogg
+test/
