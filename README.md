@@ -68,7 +68,7 @@ cd morsesrc
 // Local directory --libdir=/usr/local/x86_64-linux-gnu/gstreamer-1.0
 // I perfer to install in system gstreamer directory therefore use --libdir=/usr/lib/x86_64-linux-gnu/gstreamer-1.0
 
-meson setup --libdir=/usr/lib/x86_64-linux-gnu/gstreamer-1.0 builddir
+meson setup builddir --libdir=/usr/lib/x86_64-linux-gnu/gstreamer-1.0 
 meson compile -C builddir
 sudo meson install -C builddir
 
